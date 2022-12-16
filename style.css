@@ -1,0 +1,57 @@
+body {
+	background: linear-gradient(
+		rgb(134, 58, 111),
+		rgb(151, 92, 141),
+		rgb(217, 137, 181),
+		rgb(255, 173, 188)
+	);
+}
+.M {
+	font-family: Besdong;
+	color: rgb(249, 248, 248);
+	background-color: #eb7f45;
+	font-size: 5rem;
+}
+.HELLO{
+    background: linear-gradient(
+		rgb(255, 225, 93),
+		rgb(244, 157, 26),
+		rgb(220, 53, 53),
+		rgb(176, 30, 104)
+	);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.M1 {
+	margin-top: 1rem;
+	font-family: Besdong;
+	color: #bad7e9;
+	background-color: #2b3467;
+	font-size: 5rem;
+}
+.M2 {
+	text-align: center;
+	width: 50%;
+	margin-left: 26%;
+	height: 40rem;
+	font-family: Besdong;
+	color: #bad7e9;
+	background-color: #2b3467;
+	font-size: 5rem;
+}
+.MT {
+	color: #eb455f;
+}
+.ER {
+color: aqua;
+}
+.H1{
+    background-color: aqua;
+    color: #eb455f;
+    font-size: 5rem;
+}
+.H2{
+    background-color: aqua;
+    color: #ebcd45;
+    font-size: 5rem;
+}
