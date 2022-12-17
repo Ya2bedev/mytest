@@ -1,57 +1,116 @@
-body {
-	background: linear-gradient(
-		rgb(134, 58, 111),
-		rgb(151, 92, 141),
-		rgb(217, 137, 181),
-		rgb(255, 173, 188)
-	);
-}
-.M {
-	font-family: Besdong;
-	color: rgb(249, 248, 248);
-	background-color: #eb7f45;
-	font-size: 5rem;
-}
-.HELLO{
-    background: linear-gradient(
-		rgb(255, 225, 93),
-		rgb(244, 157, 26),
-		rgb(220, 53, 53),
-		rgb(176, 30, 104)
-	);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-.M1 {
-	margin-top: 1rem;
-	font-family: Besdong;
-	color: #bad7e9;
-	background-color: #2b3467;
-	font-size: 5rem;
-}
-.M2 {
+* {
+	margin: 0;
+	font-family: surin;
+	background-image: url(./Backg.png);
 	text-align: center;
-	width: 50%;
-	margin-left: 26%;
-	height: 40rem;
-	font-family: Besdong;
-	color: #bad7e9;
-	background-color: #2b3467;
-	font-size: 5rem;
 }
-.MT {
-	color: #eb455f;
+
+form {
+	display: flex;
 }
-.ER {
-color: aqua;
+fieldset {
+	width: 500px;
+	border: coral solid 0.2rem;
 }
-.H1{
-    background-color: aqua;
-    color: #eb455f;
-    font-size: 5rem;
+label {
+	color: #f7d716;
 }
-.H2{
-    background-color: aqua;
-    color: #ebcd45;
-    font-size: 5rem;
+legend {
+	color: #f7d716;
+	border: #f7d716 solid 0.1rem;
 }
+input {
+	font-size: 0.9rem;
+	color: #ec9b3b;
+	border: #f7d716 solid 1px;
+	border-radius: 5px;
+}
+textarea {
+	background-color: #55c1c946;
+
+	border: #e14d2a solid 2px;
+}
+button {
+	background-color: #ec9b3b;
+	border: #000000 solid 1px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.gen {
+	cursor: pointer;
+}
+h1{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+
+    font-size: 7em;
+    width: 12em;
+
+  }
+  
+  .rainbow-text {
+    background: #CA4246;
+    background-color: #CA4246;
+    background: conic-gradient(
+      #CA4246 16.666%, 
+      #E16541 16.666%, 
+      #E16541 33.333%, 
+      #F18F43 33.333%, 
+      #F18F43 50%, 
+      #8B9862 50%, 
+      #8B9862 66.666%, 
+      #476098 66.666%, 
+      #476098 83.333%, 
+      #A7489B 83.333%);
+    
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+    animation: rainbow-text-animation-rev 0.5s ease forwards;
+  
+    cursor: pointer;
+  }
+
+  .rainbow-text:hover {
+    animation: rainbow-text-animation 0.5s ease forwards;
+  }
+  
+  @keyframes rainbow-text-animation {
+    0% {
+      background-position: 0 0;
+    }
+    20% {
+      background-position: 0 1em;
+    }
+    100% {
+      background-position: -9em 1em;
+    }
+  }
+  @keyframes rainbow-text-animation-rev {
+    0% {
+      background-position: -9em 1em;
+    }
+    20% {
+      background-position: 0 1em;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+/* #EFF5F5
+#D6E4E5
+#497174
+#EB6440 
+
+#E14D2A
+#FD841F
+#3E6D9C
+#001253
+
+#293462
+#F24C4C
+#EC9B3B
+#F7D716*/
