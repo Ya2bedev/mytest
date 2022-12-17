@@ -39,67 +39,66 @@ button {
 .gen {
 	cursor: pointer;
 }
-h1{
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
+	font-size: 7em;
+	width: 12em;
+}
 
-    font-size: 7em;
-    width: 12em;
+.rainbow-text {
+	background: #ca4246;
+	background-color: #ca4246;
+	background: conic-gradient(
+		#ca4246 16.666%,
+		#e16541 16.666%,
+		#e16541 33.333%,
+		#f18f43 33.333%,
+		#f18f43 50%,
+		#8b9862 50%,
+		#8b9862 66.666%,
+		#476098 66.666%,
+		#476098 83.333%,
+		#a7489b 83.333%
+	);
 
-  }
-  
-  .rainbow-text {
-    background: #CA4246;
-    background-color: #CA4246;
-    background: conic-gradient(
-      #CA4246 16.666%, 
-      #E16541 16.666%, 
-      #E16541 33.333%, 
-      #F18F43 33.333%, 
-      #F18F43 50%, 
-      #8B9862 50%, 
-      #8B9862 66.666%, 
-      #476098 66.666%, 
-      #476098 83.333%, 
-      #A7489B 83.333%);
-    
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    
-    animation: rainbow-text-animation-rev 0.5s ease forwards;
-  
-    cursor: pointer;
-  }
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 
-  .rainbow-text:hover {
-    animation: rainbow-text-animation 0.5s ease forwards;
-  }
-  
-  @keyframes rainbow-text-animation {
-    0% {
-      background-position: 0 0;
-    }
-    20% {
-      background-position: 0 1em;
-    }
-    100% {
-      background-position: -9em 1em;
-    }
-  }
-  @keyframes rainbow-text-animation-rev {
-    0% {
-      background-position: -9em 1em;
-    }
-    20% {
-      background-position: 0 1em;
-    }
-    100% {
-      background-position: 0 0;
-    }
-  }
+	animation: rainbow-text-animation-rev 0.5s ease forwards;
+
+	cursor: pointer;
+}
+
+.rainbow-text:hover {
+	animation: rainbow-text-animation 0.5s ease forwards;
+}
+
+@keyframes rainbow-text-animation {
+	0% {
+		background-position: 0 0;
+	}
+	20% {
+		background-position: 0 1em;
+	}
+	100% {
+		background-position: -9em 1em;
+	}
+}
+@keyframes rainbow-text-animation-rev {
+	0% {
+		background-position: -9em 1em;
+	}
+	20% {
+		background-position: 0 1em;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
 /* #EFF5F5
 #D6E4E5
 #497174
